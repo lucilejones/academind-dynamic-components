@@ -12,4 +12,8 @@ export class AppComponent {
     this.error = !this.error;
     console.log(this.error);
   }
+
+  // handleError() {
+  //   this.error = null;
+  // }
 }

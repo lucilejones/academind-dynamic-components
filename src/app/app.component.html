@@ -3,4 +3,4 @@
 <p>Here's some text and stuff.</p>
 <button class="btn btn-primary" (click)="toggleError()">Test an error for the alert box.</button>
 
-<app-alert [message]="error" *ngIf="error"></app-alert>
+<app-alert [message]="error" *ngIf="error" (close)="toggleError()"></app-alert>
